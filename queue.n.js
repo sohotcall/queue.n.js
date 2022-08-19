@@ -630,7 +630,7 @@ let webserver = require( 'http' ).createServer( function( req, res ){
 						console.log( data )
 						let taag = taagify( ( 1000 + +data.ticket + '' ).substr( 1, 3 ) )
 						//       12345678901234567890123456789012
-						print(  "{1B}{21}{00}   Perumda Tirta Amertha Buana\n" +
+						print(  "{1B}{21}{00}   Company Name\n" +
 							"   " + data.printTs + "\n" +
 							"   " + data.categoryName + "\n" +
 							taag + "\n" +
